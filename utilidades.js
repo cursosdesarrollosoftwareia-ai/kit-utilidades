@@ -5,4 +5,7 @@ export function aplicarDescuento(precio, porcentaje) {
 
   const precioFinal = precio * (1 - porcentaje / 100);
   return Math.round((precioFinal + Number.EPSILON) * 100) / 100;
+
+//este comentario es para probar el commit
+
 }
